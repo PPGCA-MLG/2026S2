@@ -1,6 +1,8 @@
 # Modelos de Linguagem e Generativos
 ###### MARINA JEANETH MACHICAO JUSTO, ROGÉRIO DE OLIVEIRA 
 
+[Ementa](https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/6-pos-graduacao/upm-higienopolis/mestrado-doutorado/computacao_aplicada/disciplinas/Ementas_2025/MODELOS_DE_LINGUAGEM_E_GENERATIVOS.pdf)
+
 <br>
 
 ###### Preencha aqui o [Questionário pré-curso](https://forms.gle/DHL4gxi9WWnX1a5Y9)
