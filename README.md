@@ -1,5 +1,11 @@
-# 2026S2
-Modelos de Linguagem e Generativos
+# Modelos de Linguagem e Generativos
+###### MARINA JEANETH MACHICAO JUSTO, ROGÉRIO DE OLIVEIRA 
+
+<br>
+
+###### Preencha aqui o [Questionário pré-curso](https://forms.gle/DHL4gxi9WWnX1a5Y9)
+
+## Programação inicial
 
 | **Aula**                                                           | **Data** | **Modalidade** |  **Professores**  |
 |--------------------------------------------------------------------|:--------:|:--------------:|:-----------------:|
