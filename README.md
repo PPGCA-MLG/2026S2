@@ -3,6 +3,8 @@
 
 [Ementa](https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/6-pos-graduacao/upm-higienopolis/mestrado-doutorado/computacao_aplicada/disciplinas/Ementas_2025/MODELOS_DE_LINGUAGEM_E_GENERATIVOS.pdf)
 
+[Projeto](https://github.com/PPGCA-MLG/2026S2/blob/main/projeto.md)
+
 <br>
 
 ###### Preencha aqui o [Questionário pré-curso](https://forms.gle/DHL4gxi9WWnX1a5Y9)
@@ -14,7 +16,7 @@
 | 1. Apresentação, [Introdução](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_01)                                        |   14.10  |   presencial   | Rogério e Jeaneth |
 | 2. [Representações de Texto e Aprendizado de Máquina Supervisionado](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_02) |   19.10  |     [online](https://teams.microsoft.com/meet/291601783910355?p=FTZaQTvL24N563Nqag)     |      Rogério      |
 | 3. [Redes Neurais e Deep Learning](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_03)                                   |   21.10  |   presencial   |      Rogério      |
-| 4. Word Embedding, Modelos Transformers                            |   28.10  |   presencial   |      Rogério      |
+| 4. [Word Embedding, Modelos Transformers](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_03)                            |   28.10  |   presencial   |      Rogério      |
 | 5. LLMs e Fine-Tuning                                              |   04.11  |   presencial   |      Rogério      |
 | 6. RAGs e Métricas                                                 |   11.11  |   presencial   |      Rogério      |
 | 7. Redes convoluconais e Classificação de Imagens                  |   18.11  |   presencial   |      Jeaneth      |
