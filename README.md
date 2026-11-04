@@ -16,9 +16,9 @@
 | 1. Apresentação, [Introdução](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_01)                                        |   14.10  |   presencial   | Rogério e Jeaneth |
 | 2. [Representações de Texto e Aprendizado de Máquina Supervisionado](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_02) |   19.10  |     [online](https://teams.microsoft.com/meet/291601783910355?p=FTZaQTvL24N563Nqag)     |      Rogério      |
 | 3. [Redes Neurais e Deep Learning](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_03)                                   |   21.10  |   presencial   |      Rogério      |
-| 4. [Word Embedding, Modelos Transformers](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_03)                            |   28.10  |   presencial   |      Rogério      |
-| 5. LLMs e Fine-Tuning                                              |   04.11  |   presencial   |      Rogério      |
-| 6. RAGs e Métricas                                                 |   11.11  |   presencial   |      Rogério      |
+| 4. [Word Embedding, Modelos Transformers](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_04)                            |   28.10  |   presencial   |      Rogério      |
+| 5. [Modelos Especializados, Fine-Tuning & RAG](https://github.com/PPGCA-MLG/2026S2/tree/main/Aula_05)                                              |   04.11  |   presencial   |      Rogério      |
+| 6. Métricas e Prática de LLM (exercício)                           |   11.11  |   presencial   |      Rogério      |
 | 7. Redes convoluconais e Classificação de Imagens                  |   18.11  |   presencial   |      Jeaneth      |
 | 8. Modelos pré-treinados e Fine-Tuning                             |   25.11  |   presencial   |      Jeaneth      |
 | 9. Auto Encoders, GANs                                             |   30.11  |     online     |      Jeaneth      |
