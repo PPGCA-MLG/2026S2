@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="478.09924"
+   viewBox="0 0 1280 478.09924"
+   id="svg_rcnn_vgg16"
+   version="1.1"
+   sodipodi:docname="arquiteturaRCNN_exemplo.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="arquiteturaRCNN_exemploa.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0429825"
+     inkscape:cx="488.98232"
+     inkscape:cy="97.796463"
+     inkscape:current-layer="svg_rcnn_vgg16" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-91" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-9" />
+    </marker>
+  </defs>
+  <g
+     id="layer_bg" />
+  <g
+     id="g38"
+     inkscape:export-filename="g38.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.878139"
+       id="rect_bg"
+       width="1280"
+       height="478.09924"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#f8fafc;stroke:#e2e8f0;stroke-width:1"
+       id="rect_header"
+       width="1240"
+       height="64"
+       x="20"
+       y="16"
+       rx="8" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:20px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#111827"
+       x="40"
+       y="44"
+       id="title_main"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+         id="tspan37">Arquitetura R-CNN com Backbone VGG16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+       x="40"
+       y="65"
+       id="subtitle_main"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         id="tspan38">Pipeline de Detecção de Objetos: Selective Search → Warping (224×224) → Extração de Características (VGG16) → Classificação &amp; Regressão de BBox → NMS</tspan></text>
+    <g
+       id="layer_diagrama">
+      <g
+         id="grupo_etapa1">
+        <rect
+           x="24.950027"
+           y="104.93748"
+           width="165.01328"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#f9fafb;stroke:#d1d5db;stroke-width:1.10009"
+           id="card_e1" />
+        <rect
+           x="35"
+           y="115"
+           width="145"
+           height="26"
+           rx="5"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#0f766e;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="badge_e1" />
+        <text
+           x="107"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e1">1. Imagem de Entrada</text>
+        <g
+           id="thumb_input"
+           transform="translate(47,175)">
+          <rect
+             x="0"
+             y="0"
+             width="120"
+             height="120"
+             rx="4"
+             style="fill:#ebebeb;stroke:#6b7280;stroke-width:1.5"
+             id="img_canvas_in" />
+          <line
+             x1="12"
+             y1="20"
+             x2="95"
+             y2="35"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line1" />
+          <line
+             x1="25"
+             y1="95"
+             x2="105"
+             y2="75"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line2" />
+          <line
+             x1="80"
+             y1="15"
+             x2="60"
+             y2="105"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line3" />
+          <circle
+             cx="42"
+             cy="48"
+             r="18"
+             style="fill:#c82828"
+             id="circle3" />
+          <circle
+             cx="42"
+             cy="48"
+             r="9"
+             style="fill:#1e50c8"
+             id="circle4" />
+          <circle
+             cx="85"
+             cy="78"
+             r="14"
+             style="fill:#c82828"
+             id="circle5" />
+          <circle
+             cx="85"
+             cy="78"
+             r="7"
+             style="fill:#1e50c8"
+             id="circle6" />
+        </g>
+        <text
+           x="107"
+           y="320"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#111827"
+           id="txt_e1_dim">256 × 256 × 3 (RGB)</text>
+        <text
+           x="107"
+           y="342"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e1_d1">Imagem completa com</text>
+        <text
+           x="107"
+           y="357"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e1_d2">múltiplos objetos</text>
+        <text
+           x="107"
+           y="372"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e1_d3">e ruído de fundo.</text>
+      </g>
+      <g
+         id="grupo_etapa2">
+        <rect
+           x="219.96581"
+           y="104.93748"
+           width="175.01413"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#f9fafb;stroke:#d1d5db;stroke-width:1.10009"
+           id="card_e2" />
+        <rect
+           x="230"
+           y="115"
+           width="155"
+           height="26"
+           rx="5"
+           style="fill:#0f766e"
+           id="badge_e2" />
+        <text
+           x="307"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e2">2. Selective Search</text>
+        <g
+           id="thumb_ss"
+           transform="translate(247,175)">
+          <rect
+             x="0"
+             y="0"
+             width="120"
+             height="120"
+             rx="4"
+             style="fill:#ebebeb;stroke:#6b7280;stroke-width:1.5"
+             id="img_canvas_ss" />
+          <circle
+             cx="42"
+             cy="48"
+             r="18"
+             style="opacity:0.75;fill:#c82828"
+             id="circle7" />
+          <circle
+             cx="42"
+             cy="48"
+             r="9"
+             style="opacity:0.75;fill:#1e50c8"
+             id="circle8" />
+          <circle
+             cx="85"
+             cy="78"
+             r="14"
+             style="opacity:0.75;fill:#c82828"
+             id="circle9" />
+          <circle
+             cx="85"
+             cy="78"
+             r="7"
+             style="opacity:0.75;fill:#1e50c8"
+             id="circle10" />
+          <rect
+             x="21"
+             y="27"
+             width="42"
+             height="42"
+             style="fill:none;stroke:#16a34a;stroke-width:2"
+             id="rect10" />
+          <rect
+             x="68"
+             y="61"
+             width="34"
+             height="34"
+             style="fill:none;stroke:#16a34a;stroke-width:2"
+             id="rect11" />
+          <rect
+             x="10"
+             y="68"
+             width="46"
+             height="40"
+             style="fill:none;stroke:#ea580c;stroke-width:1.3;stroke-dasharray:3, 2"
+             id="rect12" />
+          <rect
+             x="62"
+             y="14"
+             width="48"
+             height="36"
+             style="fill:none;stroke:#ea580c;stroke-width:1.3;stroke-dasharray:3, 2"
+             id="rect13" />
+        </g>
+        <text
+           x="307"
+           y="320"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#111827"
+           id="txt_e2_title">~2.000 Regiões (RoIs)</text>
+        <text
+           x="307"
+           y="340"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e2_d1">Segmentação hierárquica</text>
+        <text
+           x="307"
+           y="355"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e2_d2">(cor, textura, tamanho).</text>
+        <rect
+           x="232"
+           y="375"
+           width="150"
+           height="76"
+           rx="5"
+           style="fill:#f0fdfa;stroke:#99f6e4;stroke-width:1"
+           id="box_iou" />
+        <text
+           x="307"
+           y="393"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#0f766e"
+           id="txt_iou_h">Rotulagem (Treino):</text>
+        <text
+           x="307"
+           y="411"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#15803d"
+           id="txt_iou_pos">• IoU ≥ 0.7 → Objeto (+)</text>
+        <text
+           x="307"
+           y="428"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#c2410c"
+           id="txt_iou_neg">• IoU ≤ 0.3 → Fundo (−)</text>
+      </g>
+      <g
+         id="grupo_etapa3">
+        <rect
+           x="424.98248"
+           y="104.93748"
+           width="145.01161"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#f9fafb;stroke:#d1d5db;stroke-width:1.10009"
+           id="card_e3" />
+        <rect
+           x="433"
+           y="115"
+           width="129"
+           height="26"
+           rx="5"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#0f766e;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="badge_e3" />
+        <text
+           x="497"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e3">3. Warping</text>
+        <g
+           id="warped_crops"
+           transform="translate(452,165)">
+          <rect
+             x="18"
+             y="0"
+             width="72"
+             height="72"
+             rx="3"
+             style="fill:#e5e7eb;stroke:#ea580c;stroke-width:1.3;stroke-dasharray:3, 2"
+             id="crop_bg" />
+          <line
+             x1="25"
+             y1="20"
+             x2="80"
+             y2="55"
+             style="stroke:#9ca3af;stroke-width:1.5"
+             id="line13" />
+          <rect
+             x="9"
+             y="14"
+             width="72"
+             height="72"
+             rx="3"
+             style="fill:#f3f4f6;stroke:#16a34a;stroke-width:1.5"
+             id="crop_obj2" />
+          <rect
+             x="0"
+             y="28"
+             width="72"
+             height="72"
+             rx="3"
+             style="fill:#ebebeb;stroke:#16a34a;stroke-width:2"
+             id="crop_obj1" />
+          <circle
+             cx="36"
+             cy="64"
+             r="24"
+             style="fill:#c82828"
+             id="circle13" />
+          <circle
+             cx="36"
+             cy="64"
+             r="12"
+             style="fill:#1e50c8"
+             id="circle14" />
+        </g>
+        <text
+           x="497"
+           y="295"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#111827"
+           id="txt_e3_dim">224 × 224 × 3</text>
+        <text
+           x="497"
+           y="315"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e3_d1">Recorte e ajuste</text>
+        <text
+           x="497"
+           y="330"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e3_d2">espacial fixo +</text>
+        <text
+           x="497"
+           y="345"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e3_d3">preprocess_input</text>
+        <text
+           x="497"
+           y="360"
+           text-anchor="middle"
+           style="font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e3_d4">(VGG16).</text>
+      </g>
+      <g
+         id="grupo_etapa4_vgg16">
+        <rect
+           x="599.99695"
+           y="104.93748"
+           width="275.02209"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#eff6ff;stroke:#93c5fd;stroke-width:1.37502"
+           id="card_e4" />
+        <rect
+           x="610"
+           y="115"
+           width="255"
+           height="26"
+           rx="5"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#0f766e;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="badge_e4" />
+        <text
+           x="737"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e4">4. Backbone CNN: VGG16 (ImageNet)</text>
+        <g
+           id="vgg16_blocks"
+           transform="translate(614,158)">
+          <rect
+             x="0"
+             y="10"
+             width="24"
+             height="135"
+             rx="3"
+             style="fill:#3b82f6;stroke:#1e40af;stroke-width:1"
+             id="rect14" />
+          <rect
+             x="26"
+             y="10"
+             width="10"
+             height="135"
+             rx="2"
+             style="fill:#f59e0b;stroke:#b45309;stroke-width:1"
+             id="rect15" />
+          <text
+             x="18"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#1e3a8a"
+             id="text15">B1</text>
+          <text
+             x="18"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text16">64</text>
+          <rect
+             x="42"
+             y="25"
+             width="24"
+             height="105"
+             rx="3"
+             style="fill:#3b82f6;stroke:#1e40af;stroke-width:1"
+             id="rect16" />
+          <rect
+             x="68"
+             y="25"
+             width="10"
+             height="105"
+             rx="2"
+             style="fill:#f59e0b;stroke:#b45309;stroke-width:1"
+             id="rect17" />
+          <text
+             x="60"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#1e3a8a"
+             id="text17">B2</text>
+          <text
+             x="60"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text18">128</text>
+          <rect
+             x="84"
+             y="40"
+             width="26"
+             height="75"
+             rx="3"
+             style="fill:#2563eb;stroke:#1e3a8a;stroke-width:1"
+             id="rect18" />
+          <rect
+             x="112"
+             y="40"
+             width="10"
+             height="75"
+             rx="2"
+             style="fill:#f59e0b;stroke:#b45309;stroke-width:1"
+             id="rect19" />
+          <text
+             x="103"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#1e3a8a"
+             id="text19">B3</text>
+          <text
+             x="103"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text20">256</text>
+          <rect
+             x="128"
+             y="52"
+             width="26"
+             height="51"
+             rx="3"
+             style="fill:#1d4ed8;stroke:#1e3a8a;stroke-width:1"
+             id="rect20" />
+          <rect
+             x="156"
+             y="52"
+             width="10"
+             height="51"
+             rx="2"
+             style="fill:#f59e0b;stroke:#b45309;stroke-width:1"
+             id="rect21" />
+          <text
+             x="147"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#1e3a8a"
+             id="text21">B4</text>
+          <text
+             x="147"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text22">512</text>
+          <rect
+             x="172"
+             y="61"
+             width="26"
+             height="33"
+             rx="3"
+             style="fill:#1e40af;stroke:#172554;stroke-width:1"
+             id="rect22" />
+          <rect
+             x="200"
+             y="61"
+             width="10"
+             height="33"
+             rx="2"
+             style="fill:#f59e0b;stroke:#b45309;stroke-width:1"
+             id="rect23" />
+          <text
+             x="191"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#1e3a8a"
+             id="text23">B5</text>
+          <text
+             x="191"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text24">512</text>
+          <rect
+             x="218"
+             y="22"
+             width="26"
+             height="110"
+             rx="4"
+             style="fill:#7c3aed;stroke:#4c1d95;stroke-width:1.2"
+             id="rect24" />
+          <text
+             x="231"
+             y="77"
+             text-anchor="middle"
+             transform="rotate(-90,231,77)"
+             style="font-weight:bold;font-size:9.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+             id="text25">Flatten + FC</text>
+          <text
+             x="231"
+             y="160"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:9px;fill:#4c1d95"
+             id="text26">FC</text>
+          <text
+             x="231"
+             y="172"
+             text-anchor="middle"
+             style="font-size:8.5px;fill:#374151"
+             id="text27">4096</text>
+        </g>
+        <g
+           id="vgg_legend"
+           transform="translate(615,345)">
+          <rect
+             x="0"
+             y="0"
+             width="12"
+             height="12"
+             rx="2"
+             style="fill:#2563eb"
+             id="rect27" />
+          <text
+             x="17"
+             y="10"
+             style="font-size:9.5px;fill:#1f2937"
+             id="text28">13× Conv 3×3 + ReLU</text>
+          <rect
+             x="135"
+             y="0"
+             width="12"
+             height="12"
+             rx="2"
+             style="fill:#f59e0b"
+             id="rect28" />
+          <text
+             x="152"
+             y="10"
+             style="font-size:9.5px;fill:#1f2937"
+             id="text29">5× MaxPool 2×2</text>
+        </g>
+        <rect
+           x="612"
+           y="372"
+           width="250"
+           height="79"
+           rx="5"
+           style="fill:#ffffff;stroke:#93c5fd;stroke-width:1"
+           id="box_finetune" />
+        <text
+           x="737"
+           y="390"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#1d4ed8"
+           id="txt_ft_h">Transfer Learning / Fine-Tuning:</text>
+        <text
+           x="737"
+           y="407"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#374151"
+           id="txt_ft_1">• Blocos 1–4: Congelados (Freeze)</text>
+        <text
+           x="737"
+           y="423"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#374151"
+           id="txt_ft_2">• Bloco 5 + FC: Ajuste fino (Dropout)</text>
+        <text
+           x="737"
+           y="439"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#374151"
+           id="txt_ft_3">• Extrai vetor de características (7×7×512)</text>
+      </g>
+      <g
+         id="grupo_etapa5_saidas">
+        <rect
+           x="898.01953"
+           y="104.93748"
+           width="180.01445"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#f9fafb;stroke:#d1d5db;stroke-width:1.10009"
+           id="card_e5" />
+        <rect
+           x="906"
+           y="115"
+           width="164"
+           height="26"
+           rx="5"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#0f766e;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="badge_e5" />
+        <text
+           x="988"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e5">5. Classificação &amp; BBox</text>
+        <rect
+           x="908"
+           y="152"
+           width="160"
+           height="112"
+           rx="6"
+           style="fill:#eff6ff;stroke:#3b82f6;stroke-width:1.5"
+           id="head_cls" />
+        <text
+           x="988"
+           y="172"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#1e40af"
+           id="txt_cls_t">Classificador (Softmax)</text>
+        <text
+           x="988"
+           y="191"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#1f2937"
+           id="txt_cls_1">Saída: N + 1 classes</text>
+        <text
+           x="988"
+           y="207"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_cls_2">(N objetos + Fundo)</text>
+        <text
+           x="988"
+           y="228"
+           text-anchor="middle"
+           style="font-size:9.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#1d4ed8"
+           id="txt_cls_3">P(y = Alvo | RoI) = 0.96</text>
+        <text
+           x="988"
+           y="245"
+           text-anchor="middle"
+           style="font-style:italic;font-size:9px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#6b7280"
+           id="txt_cls_4">Loss: Cross-Entropy</text>
+        <rect
+           x="908"
+           y="278"
+           width="160"
+           height="122"
+           rx="6"
+           style="fill:#f0fdfa;stroke:#0d9488;stroke-width:1.5"
+           id="head_reg" />
+        <text
+           x="988"
+           y="298"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#0f766e"
+           id="txt_reg_t">Regressão de BBox</text>
+        <text
+           x="988"
+           y="317"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#1f2937"
+           id="txt_reg_1">Refina P → G via:</text>
+        <text
+           x="988"
+           y="335"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#0f766e"
+           id="txt_reg_2">(tₓ, tᵧ, t_w, t_h)</text>
+        <text
+           x="988"
+           y="354"
+           text-anchor="middle"
+           style="font-size:9.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_reg_3">Ajuste fino de centro</text>
+        <text
+           x="988"
+           y="368"
+           text-anchor="middle"
+           style="font-size:9.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_reg_4">(x, y) e escala (w, h)</text>
+        <text
+           x="988"
+           y="386"
+           text-anchor="middle"
+           style="font-style:italic;font-size:9px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#6b7280"
+           id="txt_reg_5">Loss: MSE / Smooth L1</text>
+      </g>
+      <g
+         id="grupo_etapa6_nms">
+        <rect
+           x="1106.037"
+           y="104.93748"
+           width="154.01233"
+           height="357.12497"
+           rx="8.0006523"
+           style="fill:#f9fafb;stroke:#d1d5db;stroke-width:1.10009"
+           id="card_e6" />
+        <rect
+           x="1114"
+           y="115"
+           width="138"
+           height="26"
+           rx="5"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#0f766e;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="badge_e6" />
+        <text
+           x="1183"
+           y="132"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:11px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#ffffff"
+           id="txt_badge_e6">6. NMS &amp; Saída</text>
+        <g
+           id="thumb_final"
+           transform="translate(1123,175)">
+          <rect
+             x="0"
+             y="0"
+             width="120"
+             height="120"
+             rx="4"
+             style="fill:#ebebeb;stroke:#6b7280;stroke-width:1.5"
+             id="img_canvas_out" />
+          <line
+             x1="12"
+             y1="20"
+             x2="95"
+             y2="35"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line29" />
+          <line
+             x1="25"
+             y1="95"
+             x2="105"
+             y2="75"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line30" />
+          <line
+             x1="80"
+             y1="15"
+             x2="60"
+             y2="105"
+             style="stroke:#b4b4b4;stroke-width:1.5"
+             id="line31" />
+          <circle
+             cx="42"
+             cy="48"
+             r="18"
+             style="fill:#c82828"
+             id="circle31" />
+          <circle
+             cx="42"
+             cy="48"
+             r="9"
+             style="fill:#1e50c8"
+             id="circle32" />
+          <circle
+             cx="85"
+             cy="78"
+             r="14"
+             style="fill:#c82828"
+             id="circle33" />
+          <circle
+             cx="85"
+             cy="78"
+             r="7"
+             style="fill:#1e50c8"
+             id="circle34" />
+          <rect
+             x="23"
+             y="29"
+             width="38"
+             height="38"
+             style="fill:none;stroke:#15803d;stroke-width:2.2"
+             id="rect34" />
+          <rect
+             x="23"
+             y="18"
+             width="46"
+             height="11"
+             style="fill:#15803d"
+             id="rect35" />
+          <text
+             x="46"
+             y="26.5"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:8px;fill:#ffffff"
+             id="text35">Alvo 0.96</text>
+          <rect
+             x="70"
+             y="63"
+             width="30"
+             height="30"
+             style="fill:none;stroke:#15803d;stroke-width:2.2"
+             id="rect36" />
+          <rect
+             x="70"
+             y="52"
+             width="46"
+             height="11"
+             style="fill:#15803d"
+             id="rect37" />
+          <text
+             x="93"
+             y="60.5"
+             text-anchor="middle"
+             style="font-weight:bold;font-size:8px;fill:#ffffff"
+             id="text37">Alvo 0.92</text>
+        </g>
+        <text
+           x="1183"
+           y="320"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10.5px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#111827"
+           id="txt_e6_t">Non-Max Suppression</text>
+        <text
+           x="1183"
+           y="338"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e6_1">Suprime caixas com</text>
+        <text
+           x="1183"
+           y="353"
+           text-anchor="middle"
+           style="font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#4b5563"
+           id="txt_e6_2">IoU(M, Bᵢ) &gt; τ.</text>
+        <text
+           x="1183"
+           y="376"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#15803d"
+           id="txt_e6_3">Métricas: Precision,</text>
+        <text
+           x="1183"
+           y="391"
+           text-anchor="middle"
+           style="font-weight:bold;font-size:10px;font-family:'DejaVu Sans', Arial, sans-serif;fill:#15803d"
+           id="txt_e6_4">Recall e mAP</text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-3)"
+       d="m 392.60706,243.72881 h 30.16949"
+       id="path37-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-0)"
+       d="m 567.53206,243.72881 h 30.16949"
+       id="path37-98"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
+       d="m 1074.6071,243.72881 h 30.1695"
+       id="path37-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#0d9488;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-7)"
+       d="m 862.50547,250.31975 37.36041,31.64003"
+       id="path37-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#2563eb;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-5)"
+       d="m 862.45968,224.17929 38.79859,-27.32548"
+       id="path37-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 187.60706,243.72881 h 30.16949"
+       id="path37"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#414141;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:markers stroke fill"
+       id="rect38"
+       width="176.94913"
+       height="147.11865"
+       x="608.13562"
+       y="162.03391" />
+  </g>
+</svg>
